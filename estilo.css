@@ -1,0 +1,44 @@
+body {
+    background: rgba(0, 125, 255, 0.3);
+    font-size: 13pt;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin: 0px;
+}
+
+
+main {
+    background-color: white;
+    width: 80vw;
+    margin: auto;
+    margin-top: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+div {
+    padding: 5px;
+    max-width: 100%;
+}
+
+div.centrada {
+    width: fit-content;
+    margin: auto;
+    justify-content: center;
+}
+
+div.flex-slider {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px;
+    padding: 0px;
+}
+div.flex-slider div {
+    flex: 1 1 100px;
+    margin: 5px;
+    padding: 0px;
+}
+div.flex-slider div.label {
+    flex: 1 1 0px;
+}

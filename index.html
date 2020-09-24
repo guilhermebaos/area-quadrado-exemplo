@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Área de um Quadrado</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <main>
+        <h1>Área de um Quadrado</h1>
+        <div class="centrada">
+            <div class="flex-slider">
+                <div><label for="ladoQuadrado">Lado do Quadrado</label></div>
+                <div><span id="ladoQuadradoValue">10.0</span>cm<br>
+                <input type="range" name="ladoQuadrado" id="ladoQuadrado" class="slider" min="1" max="10000" value="10"></div>
+            </div>
+        </div>
+        <p>
+            A área do quadrado será <span id="areaQuadrado">100</span>cm<sup>2</sup>!
+        </p>
+    </main>
+
+    <script src="quadrado.js"></script>
+</body>
+</html>
